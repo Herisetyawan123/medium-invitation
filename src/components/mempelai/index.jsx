@@ -2,7 +2,13 @@ import React from "react";
 
 function CopleSection() {
   return (
-    <div className="p-10 font-['Rondal-Semibold'] overflow-hidden">
+    <div className="p-10 font-['Rondal-Semibold'] overflow-hidden relative">
+      <img
+        src="/frame/mempelai/b-r.png"
+        className="absolute -z-10 -right-32 -bottom-32 scale-50"
+        alt=""
+      />
+
       <h1 className="text-center font-semibold text-xl">
         بسم الله الرحمن الرحيم
       </h1>

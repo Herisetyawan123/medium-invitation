@@ -29,6 +29,9 @@ function CoverSection() {
   return (
     <div className="w-full h-full bg-[url('/wallpaper.jpeg')] bg-no-repeat bg-cover bg-center px-10 py-24">
       <div className="backdrop-blur-sm bg-white/30 w-full h-full rounded-md shadow flex flex-col gap-2 justify-end items-center py-16">
+        <h1 className="font-['Rondal-SemiBold'] font-bold text-3xl mb-5">
+          Happy Wedding day
+        </h1>
         <div
           className="bg-yellow-700 overflow-hidden h-96 w-64 rounded-t-full mb-10"
           data-aos="zoom-out-down"
