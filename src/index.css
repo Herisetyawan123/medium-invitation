@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Rondal-Regular";
+  src: url("./fonts/Rondal-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rondal-Bold";
+  src: url("./fonts/Rondal-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rondal-SemiBold";
+  src: url("./fonts/Rondal-SemiBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
