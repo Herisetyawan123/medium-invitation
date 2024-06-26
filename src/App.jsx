@@ -1,3 +1,4 @@
+// asset and component
 import "./index.css";
 import LeftSide from "./section/LeftSide";
 import RightSide from "./section/RightSide";
