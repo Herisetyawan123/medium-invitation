@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import CoverSection from "../components/cover-section";
 import CopleSection from "../components/mempelai";
 import GallerySection from "../components/galery";
+import SaveTheDateSection from "../components/save-the-date";
 
 function RightSide() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function RightSide() {
       <CoverSection />
       <CopleSection />
       <GallerySection />
+      <SaveTheDateSection />
     </div>
   );
 }
