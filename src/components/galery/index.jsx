@@ -59,9 +59,9 @@ function GallerySection() {
         </div>
 
         <h1 className="font-['Tangerine'] text-4xl text-center mt-10">
-          Photo Gallery
+          Video Gallery
         </h1>
-        <div className="w-[90%] mx-auto h-64 mt-5">
+        <div className="w-[90%] mx-auto h-64 mt-5" data-aos="fade-up">
           <iframe
             className="w-full h-full rounded-lg"
             src={`https://www.youtube.com/embed/ivrumxRUz_Y`}

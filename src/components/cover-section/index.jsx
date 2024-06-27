@@ -27,7 +27,7 @@ function CoverSection() {
     return () => clearInterval(interval); // Bersihkan interval saat komponen unmount
   }, [nextImageIndex]);
   return (
-    <div className="w-full h-full bg-[url('/wallpaper.jpeg')] bg-no-repeat bg-cover bg-center px-10 py-24">
+    <div className="w-full h-[100vh] bg-[url('/wallpaper.jpeg')] bg-no-repeat bg-cover bg-center px-10 py-24">
       <div className="backdrop-blur-sm bg-white/30 w-full h-full rounded-md shadow flex flex-col gap-2 justify-end items-center py-16">
         <h1 className="font-['Rondal-SemiBold'] font-bold text-3xl mb-5">
           Happy Wedding day

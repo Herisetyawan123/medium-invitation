@@ -5,11 +5,11 @@ import RightSide from "./section/RightSide";
 
 function App() {
   return (
-    <main className="grid grid-cols-12 w-screen h-screen">
-      <div className="hidden lg:block lg:col-span-8 h-full w-full">
+    <main className="w-full grid grid-cols-12">
+      <div className="hidden lg:block lg:col-span-8 h-[100vh] w-full sticky top-0">
         <LeftSide />
       </div>
-      <div className="col-span-12 lg:col-span-4 h-full overflow-auto">
+      <div className="col-span-12 lg:col-span-4 overflow-auto">
         <RightSide />
       </div>
     </main>

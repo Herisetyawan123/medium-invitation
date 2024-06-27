@@ -14,11 +14,11 @@ function CopleSection() {
         alt=""
       />
 
-      <h1 className="text-center font-semibold text-xl">
+      <h1 className="text-center font-semibold text-xl" data-aos="fade-up">
         بسم الله الرحمن الرحيم
       </h1>
 
-      <p className="text-center mt-5 text-xs">
+      <p className="text-center mt-5 text-xs" data-aos="fade-up">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
         animi. Corrupti aperiam iusto amet, id sed dolor hic explicabo. Dolorem
         nesciunt quia veritatis autem laborum asperiores corrupti accusamus at
@@ -26,7 +26,10 @@ function CopleSection() {
       </p>
 
       <div className="mt-10 flex flex-col items-center gap-10">
-        <div className="w-full flex flex-col items-center gap-5">
+        <div
+          className="w-full flex flex-col items-center gap-5"
+          data-aos="fade-right"
+        >
           <div className="w-[80%] sm:w-[60%] md:w-[30%] lg:w-[60%] h-96 bg-gray-700 rounded-t-full"></div>
 
           <div className="text-center">
@@ -37,7 +40,10 @@ function CopleSection() {
 
         <h1 className="text-6xl">&</h1>
 
-        <div className="w-full flex flex-col items-center gap-5">
+        <div
+          className="w-full flex flex-col items-center gap-5"
+          data-aos="fade-left"
+        >
           <div className="w-[80%] sm:w-[60%] md:w-[30%] lg:w-[60%] h-96 bg-gray-700 rounded-t-full"></div>
 
           <div className="text-center">
