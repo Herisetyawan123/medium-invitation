@@ -37,16 +37,24 @@ function App() {
       <audio src="/sound.mp3" loop hidden ref={audioRef} />
       {overlayVisible && (
         <div
-          className={`overlay fixed inset-0 flex items-center justify-center bg-slate-900 text-white z-50 ${
+          className={`overlay fixed inset-0 flex items-center justify-center bg-[url('/cover.jpeg')] bg-no-repeat bg-cover bg-center text-white z-50 ${
             animate ? "animate-slide-up" : ""
           }`}
         >
-          <button
-            className="bg-white text-black px-6 py-3 rounded"
-            onClick={hideOverlay}
-          >
-            Buka
-          </button>
+          <div className="w-2/3 md:w-2/6 flex flex-col justify-center items-center rounded-md px-5 py-8 bg-white/30 backdrop-blur-xl">
+            <div className="bg-gray-500 h-60  w-full md:w-[50%] rounded-md overflow-hidden flex justify-center items-center">
+              <h1>No Picture</h1>
+            </div>
+            <h1 className="text-center text-black text-5xl my-10 font-['Tangerine'] font-bold">
+              Sutipan <br /> & <br /> Fitri
+            </h1>
+            <button
+              className="bg-white text-black px-6 py-3 hover:scale-105 duration-700 rounded-full font-['Rondal-SemiBold'] italic"
+              onClick={hideOverlay}
+            >
+              Open Invitation
+            </button>
+          </div>
         </div>
       )}
       <div className="hidden lg:block lg:col-span-8 h-[100vh] w-full sticky top-0">
