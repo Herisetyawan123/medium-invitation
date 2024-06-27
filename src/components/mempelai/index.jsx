@@ -8,6 +8,11 @@ function CopleSection() {
         className="absolute -z-10 -right-32 -bottom-32 scale-50"
         alt=""
       />
+      <img
+        src="/frame/mempelai/b-r.png"
+        className="absolute -z-10 -left-32 -top-32 scale-50 rotate-180"
+        alt=""
+      />
 
       <h1 className="text-center font-semibold text-xl">
         بسم الله الرحمن الرحيم
