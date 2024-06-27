@@ -33,7 +33,7 @@ function CoverSection() {
           Happy Wedding day
         </h1>
         <div
-          className="bg-yellow-700 overflow-hidden h-96 w-64 rounded-t-full mb-10"
+          className="bg-yellow-700 overflow-hidden h-96 w-40 sm:w-64 rounded-t-full mb-10"
           data-aos="zoom-out-down"
         >
           <div className="image-wrapper">
