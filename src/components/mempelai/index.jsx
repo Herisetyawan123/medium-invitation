@@ -27,7 +27,7 @@ function CopleSection() {
 
       <div className="mt-10 flex flex-col items-center gap-10">
         <div className="w-full flex flex-col items-center gap-5">
-          <div className="w-[60%] h-96 bg-red-700 rounded-t-full"></div>
+          <div className="w-[60%] h-96 bg-gray-700 rounded-t-full"></div>
 
           <div className="text-center">
             <h1 className="text-3xl">Sutipan</h1>
@@ -38,7 +38,7 @@ function CopleSection() {
         <h1 className="text-6xl">&</h1>
 
         <div className="w-full flex flex-col items-center gap-5">
-          <div className="w-[60%] h-96 bg-red-700 rounded-t-full"></div>
+          <div className="w-[60%] h-96 bg-gray-700 rounded-t-full"></div>
 
           <div className="text-center">
             <h1 className="text-3xl">Fitri</h1>

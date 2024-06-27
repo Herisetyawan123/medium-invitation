@@ -56,6 +56,10 @@ function WeddingGiftSection() {
           </div>
         </form>
       </div>
+
+      <div className="w-full bg-gray-800 text-white py-2 text-center">
+        <h1>Powered By Jadi Mudah</h1>
+      </div>
     </>
   );
 }
